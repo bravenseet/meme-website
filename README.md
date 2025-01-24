@@ -1,5 +1,5 @@
 # meme website
-There is a button that links you to 
+There is a button that links you to a random meme from r/memes
 
 ------------------------------------------------------------------------------------------------------------------
 FOR USE
