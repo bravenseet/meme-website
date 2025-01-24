@@ -1,0 +1,225 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(45, 45, 45);
+}
+
+.navbar {
+  padding: 0px;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav_button {
+  float: left;
+}
+
+.nav_a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 100%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.nav_a:hover {
+  color: rgb(211, 211, 211);
+}
+
+#home_title {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 1em;
+  font-size: 5em;
+}
+
+#bot_logo {
+  display: block;
+  block-size: 13em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+#logo_div {
+  padding-top: 0px;
+}
+
+.bot_tag {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.bot_tag:hover{
+  color: rgb(211, 211, 211);
+}
+
+.home_text {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1em;
+}
+
+#home-sec1box {
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+}
+
+#home-sec1 {
+  border: 2px rgb(60, 60, 60) solid;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 24px;
+  padding: 15px;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+}      
+
+#words-section {
+  background: rgb(48, 48, 48)
+}
+
+#home-sec2box {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 10vh;
+}
+
+#home-sec2 {
+  border: 2px rgb(60, 60, 60) solid;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 24px;
+  padding: 15px;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+}
+
+.button-div {
+  border: 2px rgb(60, 60, 60) solid;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.button-to-bot {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.button-to-bot:hover{
+  color: rgb(211, 211, 211);
+}
+
+#about-text {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 5em;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#creator-1 {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+#insta-logo {
+  display: inline;
+  box-align: center;
+  block-size: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+}
+
+#twitter-logo {
+  display: inline;
+  box-align: center;
+  block-size: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+}
+
+.insta-div {
+  display: block;
+  block-size: 30px;
+}
+
+#funny-button {
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px rgb(60, 60, 60) solid;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border-radius: 10%;
+    padding: 32px 64px;
+    text-align: center;
+    font-size: 32px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    box-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#funny-button:hover {
+    opacity: 1
+}

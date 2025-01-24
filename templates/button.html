@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+  <script>
+
+    function timedRefresh(timeoutPeriod) {
+	    setTimeout("location.reload(true);",timeoutPeriod);
+    }
+
+</script>
+  <ul class="navbar">
+
+    <li class="nav_button"><a class="nav_a" href="http://192.168.11.152:8080/">😁</a></li>
+  </ul>
+  
+    <a target="_blank" href={{ img }}>
+        <button onclick=javascript:timedRefresh(100) id="funny-button">MEME</button>
+    </a> 
+</body>
+</html>
